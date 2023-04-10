@@ -11,7 +11,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setDisplayAlert(true);
-    if (name === 'ADL' && password === '252525') {
+    if (name === 'ADL@desLatam.cl' && password === '252525') {
       setMessage('Los datos son correctos');
     } else {
       setMessage('Los datos son incorrectos');
